@@ -79,11 +79,22 @@ html{
     border: solid black 0.1rem;
 
 }
-.content__info figure img{
+.content__img{
     width: 60rem;
     height: 33rem;
    
 }
+.content__description{
+    position: relative;
+    top: 2rem;
+    
+    
+}
+.content__description p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
 .content__card{
     position: relative;
     top: 3rem;
