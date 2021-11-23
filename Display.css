@@ -6,18 +6,25 @@
 html{
     font-size: 62.5%;
 }
+
 .nav{
     background-color:#111111;
-    height: 4rem;
+    height: 5rem;
     width: 100vw;
     
 }
-.nav figure{
+
+
+.nav__img{
+    width: 7rem;
+    height: 5rem;
     display: inline-block;
 }
 .nav__pages{
+    
     position: relative;
-    left: 80vw;
+    
+    left: 75vw;
     width: 24rem;
     display: inline-block;
 }
@@ -38,14 +45,14 @@ html{
 .main__sidebar{
    
     width: 30rem;
-    height: 88vh;
+    height: 86.5vh;
   border-right: solid black 0.1rem;
    
 
 }
 .main__sidebar-box {
     position: relative;
-    left: 6rem;
+    left: 3rem;
     background-color:white;
     width: 18rem;
     height: 11rem;
@@ -82,8 +89,15 @@ footer{
 footer div a{
     width: 10rem;
 }
-.footer__img{
-    width: 2rem;
-    height: 2rem;
+footer{
+    padding: 00.5rem;
+}
+footer a img{
+    position: relative;
+    left: 25rem;
+    width: 2.5rem;
+    height: 2.5rem;
     display: inline-block;
+    margin-left: 2rem;
+    
 }
