@@ -38,11 +38,13 @@ html{
     margin:0px 1rem 0px 1rem ;
     list-style: none;
 }
+
 .content {
     display: flex;
     
+    
 }
-.main__sidebar{
+.content__sidebar{
    
     width: 30rem;
     height: 86.5vh;
@@ -50,7 +52,7 @@ html{
    
 
 }
-.main__sidebar-box {
+.content__sidebar-box {
     position: relative;
     left: 3rem;
     background-color:white;
@@ -58,15 +60,15 @@ html{
     height: 11rem;
     margin-top: 2.6rem;
 }
-.main__sidebar-box img{
+.content__sidebar-box img{
     width: inherit;
     height: inherit;
 }
-.main__content{
+.content__info{
     display: flex;
     width: 100vw;
 }
-.main__content figure{
+.content__info figure{
     position: relative;
     top: 3rem;
     left: 18rem;
@@ -77,10 +79,27 @@ html{
     border: solid black 0.1rem;
 
 }
-.main__content figure img{
+.content__info figure img{
     width: 60rem;
     height: 33rem;
    
+}
+.content__card{
+    position: relative;
+    top: 3rem;
+    left: 25rem;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 2rem;
+    background-color: #d1d6d8;
+
+}
+.content__card div{
+    position: relative;
+    top: 1rem;
+    text-align: center ;
+    font-size: 1.5rem;
+
 }
 footer{
     background-color: #273237;
