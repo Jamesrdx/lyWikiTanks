@@ -79,3 +79,11 @@ footer{
     background-color: #273237;
     height: 3.8rem;
 }
+footer div a{
+    width: 10rem;
+}
+.footer__img{
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+}
