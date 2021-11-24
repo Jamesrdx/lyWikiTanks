@@ -44,7 +44,7 @@ html{
     
     
 }
-.content__sidebar{
+.sidebar{
    
     width: 30rem;
     height: 86.5vh;
@@ -52,7 +52,7 @@ html{
    
 
 }
-.content__sidebar-box {
+.sidebar-box {
     position: relative;
     left: 3rem;
     background-color:white;
@@ -60,7 +60,7 @@ html{
     height: 11rem;
     margin-top: 2.6rem;
 }
-.content__sidebar-box img{
+.sidebar-box img{
     width: inherit;
     height: inherit;
 }
@@ -68,50 +68,7 @@ html{
     display: flex;
     width: 100vw;
 }
-.content__info figure{
-    position: relative;
-    top: 3rem;
-    left: 18rem;
-    width: 62rem;
-    height: 35rem;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    border: solid black 0.1rem;
 
-}
-.content__img{
-    width: 60rem;
-    height: 33rem;
-   
-}
-.content__description{
-    position: relative;
-    top: 2rem;
-    
-    
-}
-.content__description p{
-    font-size: 1.5rem;
-    text-align: justify;
-}
-
-.content__card{
-    position: relative;
-    top: 3rem;
-    left: 25rem;
-    width: 25rem;
-    height: 30rem;
-    border-radius: 2rem;
-    background-color: #d1d6d8;
-
-}
-.content__card div{
-    position: relative;
-    top: 1rem;
-    text-align: center ;
-    font-size: 1.5rem;
-
-}
 footer{
     background-color: #273237;
     height: 3.8rem;
