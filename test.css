@@ -83,7 +83,7 @@ header{
     margin-left: 10vw;
     margin-right: 10vw;
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color:black;
 }
 .three{
@@ -91,23 +91,33 @@ header{
     height: 89vh;
     background-color:whitesmoke;
 }
-.three__upper-card{
+.card{
     position: relative;
     top: 7vh;
     background-color:#dbe0e2 ;
     width: 18vw;
-    height: 20vh;
+    height: 18vh;
     padding: 1rem;
-    text-align: center;
-    border-radius: 0.7rem 0.7rem 0rem 0rem;
     border: solid black 0.1rem;
 }
-.three__upper-card h1{
+.card--upper{
+    text-align: center;
+}
+.card--upper{
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+}
+.card--bottom{
+    position: relative;
+    
+    border-radius: 0rem 0rem 0.7rem 0.7rem;
+
+}
+.three__card h1{
     font-size: 2rem;
     
     
 }
-.three__upper-card div p{
+.three__card div p{
     margin-top: 0.5rem;
     margin-bottom: 0.1rem;
     display: inline-block;
@@ -117,35 +127,25 @@ header{
 
 }
 
-.three__middle-card{
-    position: relative;
-    top: 7.3vh;
-    background-color:#dbe0e2 ;
-    width: 18vw;
-    height: 14vh;
-    padding: 1rem;
-    border: solid black 0.1rem;
-}
-.three__bottom-card{
-    position: relative;
-    top: 7.5vh;
-    background-color:#dbe0e2 ;
-    width: 18vw;
-    height: 14vh;
-    padding: 1rem;
-    text-align: center;
-    border: solid black 0.1rem;
-    border-radius: 0rem 0rem 0.7rem 0.7rem;
-}
+
 #battrt{
     font-size: 1.3rem;
     
 }
 #rtbox{
-    width: 3rem;
-    height: 3rem;
-    background-color: whitesmoke;
+    width: 16.5vw;
+    height: 6.5vh;
+   
+   display: grid;
+    grid-template-columns: auto auto auto;
 
+}
+#rtbox div{
+    background-color: #ffffff;
+    width: 5.45vw;
+    padding: 0.5vh;
+    height: 3vh;
+    
 }
 #nation-rank{
     display: flex;
