@@ -21,7 +21,7 @@ header{
     width: 5vw ;
     height: 7vh;
 }
-.nav ul li{
+.nav ul li {
     position: relative;
     left: 73vw;
     top: 2rem;
@@ -29,13 +29,20 @@ header{
     list-style: none;
     display: inline-block;
     margin-left: 2rem;
-    font-size: 1.5rem;
-    color: white;
+    font-size: 1.7rem;
+    
+    
 }
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
 .content{
     width: 100vw;
     height: 89vh;
     display: flex;
+    background-color: whitesmoke;
     
 }
 
@@ -47,16 +54,12 @@ header{
     border-right:solid 0.2rem ;
 }
 .one__img{
-    margin: 3.15vh 1.5vw 0px;
-    width:12vw ;
-    height: 25vh;
+    margin: 2.4vh 1vw 0px;
+    width:13vw ;
+    height: 19vh;
     background-color:black;   
 }
-#one__box img{
-    height: 2rem;
-    width: 2rem;
-    background-color: lawngreen;
-}
+
 
 .two{
     
@@ -65,25 +68,33 @@ header{
     height: 89vh;
     background-color: whitesmoke;
 }
+.two figure{
+    position: relative;
+    top: 7vh; 
+    width: 37vw;
+    height:49vh ;
+    
+    border: solid 0.15rem;
+    border-radius: 00.5rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+}
 .two__img{
     position: relative;
-    top: 7vh;
+    left: 0.8vw;
+    top:1.7vh ;
     width: 35vw;
-    height:45vh;
-   margin-left: 10vw;
-   margin-right: 10vw;
-   
-   
-    
+    height:45vh; 
 }
 .two div{
     position: relative;
-    top: 4vw;
-    width: 35vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    top: 5vw;
+    width: 41vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color:black;
 }
 .three{
@@ -100,24 +111,12 @@ header{
     padding: 1rem;
     border: solid black 0.1rem;
 }
+
 .card--upper{
     text-align: center;
-}
-.card--upper{
     border-radius: 0.7rem 0.7rem 0rem 0rem;
 }
-.card--bottom{
-    position: relative;
-    
-    border-radius: 0rem 0rem 0.7rem 0.7rem;
-
-}
-.three__card h1{
-    font-size: 2rem;
-    
-    
-}
-.three__card div p{
+.card__models p{
     margin-top: 0.5rem;
     margin-bottom: 0.1rem;
     display: inline-block;
@@ -125,27 +124,6 @@ header{
     margin-left: 0.7rem;
     font-size: 1.2rem;
 
-}
-
-
-#battrt{
-    font-size: 1.3rem;
-    
-}
-#rtbox{
-    width: 16.5vw;
-    height: 6.5vh;
-   
-   display: grid;
-    grid-template-columns: auto auto auto;
-
-}
-#rtbox div{
-    background-color: #ffffff;
-    width: 5.45vw;
-    padding: 0.5vh;
-    height: 3vh;
-    
 }
 #nation-rank{
     display: flex;
@@ -164,19 +142,97 @@ header{
     font-size: inherit;
 
 }
+.card--midle{
+    position: relative;
+    top: 4.2rem;
+}
 
+.card--midle #battrt{
+    font-size: 1.3rem;
+    
+}
+.card--midle #rtbox{
+    width: 16.5vw;
+    height: 6.5vh;
+   
+   display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.card--midle #rtbox div{
+    background-color: #ffffff;
+    width: 5.45vw;
+    padding: 0.5vh;
+    height: 3vh;
+    text-align: center;
+    
+}
+.card--midle #tankclass {
+    position: relative;
+    top: 00.7rem;
+    font-size: 1.3rem;
+    height: 2.4rem;
+    width: 8.5rem;
+    padding: 0.3rem 0.5rem 0.3rem;
+    border: solid #91a4ad 0.1rem;
+    border-radius: 0.3rem;
+    color: #91a4ad;
+}
+.card--midle #tankclass:hover{
+    background-color:#91a4ad ;
+}
+.card--midle #tankclass a{
+    text-decoration: none;
+    color: black;
+}
+
+.card--bottom{
+    position: relative;
+    top: 4.3rem;
+    border-radius: 0rem 0rem 0.7rem 0.7rem;
+    text-align: center;
+
+}
+
+
+.card--bottom #respch p{
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
+    display: inline-block;
+    font-size: 1.7rem;
+}
+.card--bottom #cost{
+    font-size: 1.7rem;
+}
+.card--bottom #showIn{
+    position: relative;
+    padding: 0.3rem;
+    border-radius: 00.3rem;
+    height:2.7rem ;
+    top: 2.3rem;
+    font-size: 1.8rem;
+    background-color: #91a4ad;
+
+}
+.card--bottom #showIn:hover{
+    background-color: #7c7c7c;
+}
+.card--bottom #showIn a{
+    text-decoration: none;
+    color: black;
+}
 .footer{
     width: 100vw;
     height: 5vh;
     background-color: #273237;
     display: flex;
-    padding: 0.5rem;
+    padding: 0.2rem;
 
 }
 .footer img{
     position: relative;
-    left: 85vw;
-    width: 2rem;
-    height: 2rem;
-    margin-left: 1rem;
+    left: 80vw;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1.7rem;
 }
